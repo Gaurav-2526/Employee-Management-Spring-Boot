@@ -11,8 +11,4 @@ public class EmployeeManagementApplication extends SpringBootServletInitializer 
 	public static void main(String[] args) {
 		SpringApplication.run(EmployeeManagementApplication.class, args);
 	}
-	@Override
-	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(EmployeeManagementApplication.class);
-	}
 }
